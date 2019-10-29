@@ -1,0 +1,16 @@
+service.AAADEVNaturalLanguageIVR
+service.AAADEVNaturalLanguageIVR.Bean
+service.AAADEVNaturalLanguageIVR.Dao
+service.AAADEVNaturalLanguageIVR.Http
+service.AAADEVNaturalLanguageIVR.IBM
+service.AAADEVNaturalLanguageIVR.Interfaz
+service.AAADEVNaturalLanguageIVR.MediaListeners
+service.AAADEVNaturalLanguageIVR.PlayAnnouncement
+service.AAADEVNaturalLanguageIVR.Security
+service.AAADEVNaturalLanguageIVR.Servlets
+service.AAADEVNaturalLanguageIVR.TTSAnnouncements.Google
+service.AAADEVNaturalLanguageIVR.TTSAnnouncements.IBM
+service.AAADEVNaturalLanguageIVR.Util
+service.AAADEVNaturalLanguageIVR.Verbio
+service.AAADEVNaturalLanguageIVR.Web.Actions
+service.AAADEVNaturalLanguageIVR.Web.Controllers

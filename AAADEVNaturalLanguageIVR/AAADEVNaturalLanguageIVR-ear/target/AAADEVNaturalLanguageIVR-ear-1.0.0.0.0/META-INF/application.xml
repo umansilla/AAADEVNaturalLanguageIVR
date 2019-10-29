@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>AAADEVNaturalLanguageIVR-ear</display-name>
+  <module>
+    <web>
+      <web-uri>AAADEVNaturalLanguageIVR-war-1.0.0.0.0.war</web-uri>
+      <context-root>AAADEVNaturalLanguageIVR-1.0.0.4.3</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>

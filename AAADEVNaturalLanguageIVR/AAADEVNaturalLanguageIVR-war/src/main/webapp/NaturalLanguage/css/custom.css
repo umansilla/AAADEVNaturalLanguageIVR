@@ -1,0 +1,82 @@
+.wrapper {
+	max-width: 200px;
+	width: 100%;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	display: block !important;
+}
+
+// workaround
+.intl-tel-input {
+	display: table-cell;
+}
+
+.intl-tel-input .selected-flag {
+	z-index: 4;
+}
+
+.intl-tel-input .country-list {
+	z-index: 5;
+}
+
+.input-group .intl-tel-input .form-control {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 0;
+}
+
+.iti-flag {
+	background-image: url("img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+	.iti-flag {
+		background-image: url("img/flags@2x.png");
+	}
+}
+
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.hide {
+	display: none;
+}
+
+pre {
+	margin: 0 !important;
+	display: inline-block;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	background: none;
+}
+
+::-webkit-input-placeholder {
+	color: #BBB;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #BBB;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #BBB;
+}
+
+#result {
+	margin-bottom: 100px;
+}
